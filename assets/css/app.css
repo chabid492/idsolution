@@ -113,6 +113,10 @@ a:hover, a:focus, a:active {
 .heading-md{
     font-size: 38px !important;
 }
+
+.heading-lg{
+    font-size: 45px !important;
+}
 .heading-sm{
     font-size: 25px !important;
 }
@@ -307,11 +311,20 @@ a:hover, a:focus, a:active {
 
 .main-home-hero {
     margin-top: -140px;
+    padding: 280px 0px 200px 0px;
     background: url("../images/slide.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 280px 0px 200px 0px;
+
+}
+.main-coworking-hero{
+    background: url("../images/coworking-space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: -140px;
+    padding: 200px 0px 140px 0px;
 }
 .main-top-bar{
     border-bottom: 1px solid #827f7f !important;
@@ -328,7 +341,7 @@ a:hover, a:focus, a:active {
     transition: .2s all;
 }
 .main-nav-header  .navbar-toggler-icon {
-   background: none !important;
+    background: none !important;
     color: white;
 }
 .main-nav-header .fixed .navbar-toggler-icon {
@@ -733,4 +746,85 @@ footer ul li a {
     .main-office-card-wrapper:last-child .main-office-card {
         border: 0px !important;
     }
+}
+
+.main-pricing-section{
+    padding: 0px 0px 100px;
+}
+.main-pricing-card{
+    padding: 60px 50px;
+    margin-bottom: 30px;
+}
+.main-pricing-section .col-md-4:nth-child(2) .main-pricing-card{
+    background: var(--primary-color) !important;
+    box-shadow: 0 20px 40px 10px rgb(0 0 0 / 3%);
+}
+.main-pricing-heading{
+    padding: 100px 15px 50px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-testimonials-area .swiper-wrapper{
+    padding-bottom: 70px;
+}
+.main-testimonials-area{
+    background: url("../images/testimonials1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.main-testimonials-area .swiper-pagination-bullet-active {
+    background: var(--primary-color)!important;
+}
+
+.main-testimonial-img{
+    width: 90px;
+    height: 90px;
+}
+
+.main-amenities-area{
+    padding: 130px 0 70px;
+}
+.main-amenities-card{
+    padding: 30px 35px ;
+}
+.main-amenities-img{
+    box-shadow: -8px 3px 30px 0 rgb(108 60 0 / 12%);
+    width: 100px;
+    height: 100px;
+}
+
+.main-amenities-img img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
 }
