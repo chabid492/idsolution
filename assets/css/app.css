@@ -765,58 +765,7 @@ footer ul li a {
     }
 }
 
-@media (max-width: 767px) {
-    .main-pricing-card {
-        padding: 50px 20px !important;
-    }
-    .main-home-hero h1 {
-        font-size: 30px !important;
-    }
 
-    .main-blog-area .col-md-4:last-child .main-blog-card {
-        margin-bottom: 0px !important;
-    }
-
-    .main-home-hero {
-        padding: 200px 0 120px 0 !important;
-    }
-
-    .text-md {
-        font-size: 1rem !important;
-    }
-
-    .main-office-card .main-office-detail,
-    .main-office-card .main-office-title {
-        transform: none !important;
-        opacity: 1 !important;
-    }
-
-    .main-office-card,
-    .main-office-card:hover {
-        background: transparent !important;
-    }
-
-    .main-office-card {
-        height: auto !important;
-        padding: 40px 0px !important;
-        border-right: 0px !important;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
-
-    }
-
-    .heading-md {
-        font-size: 30px !important;
-    }
-
-    .main-office-card-wrapper:nth-child(2) .main-office-card {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
-
-    }
-
-    .main-office-card-wrapper:last-child .main-office-card {
-        border: 0px !important;
-    }
-}
 
 .main-pricing-section {
     padding: 0px 0px 100px;
@@ -1084,4 +1033,78 @@ footer ul li a {
     border: 0px;
     box-shadow: none;
     outline: 0px;
+}
+.main-office-compare-area{
+    padding: 0px 0 100px;
+}
+.main-office-compare-area table td,
+.main-office-compare-area table th{
+   vertical-align: middle;
+    padding: 20px 25px;
+}
+
+.main-office-compare-area thead th{
+    vertical-align: middle;
+    padding: 40px 25px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .main-office-compare-area table td,
+    .main-office-compare-area table th{
+        vertical-align: middle;
+        padding: 15px 10px !important;
+        font-size: 12px !important;
+    }
+    .main-pricing-card {
+        padding: 50px 20px !important;
+    }
+    .main-home-hero h1 {
+        font-size: 30px !important;
+    }
+
+    .main-blog-area .col-md-4:last-child .main-blog-card {
+        margin-bottom: 0px !important;
+    }
+
+    .main-home-hero {
+        padding: 200px 0 120px 0 !important;
+    }
+
+    .text-md {
+        font-size: 1rem !important;
+    }
+
+    .main-office-card .main-office-detail,
+    .main-office-card .main-office-title {
+        transform: none !important;
+        opacity: 1 !important;
+    }
+
+    .main-office-card,
+    .main-office-card:hover {
+        background: transparent !important;
+    }
+
+    .main-office-card {
+        height: auto !important;
+        padding: 40px 0px !important;
+        border-right: 0px !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+
+    }
+
+    .heading-md {
+        font-size: 30px !important;
+    }
+
+    .main-office-card-wrapper:nth-child(2) .main-office-card {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+
+    }
+
+    .main-office-card-wrapper:last-child .main-office-card {
+        border: 0px !important;
+    }
 }

@@ -4,6 +4,24 @@
     <list default="true" id="e08612d1-55be-4a47-87ff-93bcbbdeef25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/dataTables.bootstrap5.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/swiper-bundle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/swiper-bundle.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery-3.6.0.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.0.slim.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/swiper-bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/swiper-bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/fonts/MaterialIcons-Regular.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/fonts/MaterialIcons-Regular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons-no-codepoints.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/material-icons/dist/material-design-icons.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual-office.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual-office.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,30 +30,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pricing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3381">
-              <caret line="162" column="43" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pricing-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/virtual-office.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+            <state relative-caret-position="158">
+              <caret line="225" column="38" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -53,6 +53,9 @@
     <findStrings>
       <find>prici</find>
       <find>read more</find>
+      <find>virtual-office-bg</find>
+      <find>more</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,9 +67,10 @@
         <option value="$PROJECT_DIR$/plan-pricing.html" />
         <option value="$PROJECT_DIR$/pricing-details.html" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pricing.html" />
         <option value="$PROJECT_DIR$/pricing-detail.html" />
+        <option value="$PROJECT_DIR$/pricing.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/virtual-office.html" />
       </list>
     </option>
@@ -130,18 +134,20 @@
       <workItem from="1648054841972" duration="1465000" />
       <workItem from="1648229052489" duration="936000" />
       <workItem from="1648493081391" duration="164000" />
-      <workItem from="1648572562855" duration="265000" />
+      <workItem from="1648572562855" duration="1402000" />
+      <workItem from="1648744956275" duration="197000" />
+      <workItem from="1648745159581" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6813000" />
+    <option name="totallyTimeSpent" value="8227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14449541" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26605505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -172,17 +178,10 @@
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtual-office.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+        <state relative-caret-position="158">
+          <caret line="339" column="48" selection-start-line="339" selection-start-column="48" selection-end-line="339" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -193,10 +192,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pricing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3381">
-          <caret line="162" column="43" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="43" />
+        <state relative-caret-position="357">
+          <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtual-office.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="225" column="38" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="38" />
         </state>
       </provider>
     </entry>
