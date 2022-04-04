@@ -342,6 +342,12 @@ a:hover, a:focus, a:active {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.main-services-hero {
+    background: url("../images/services-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 .main-top-bar {
     border-bottom: 1px solid #827f7f !important;
@@ -1107,4 +1113,11 @@ footer ul li a {
     .main-office-card-wrapper:last-child .main-office-card {
         border: 0px !important;
     }
+}
+
+.main-services-section{
+    padding: 100px 0 0px;
+}
+.img-services{
+    max-width: 420px;
 }
