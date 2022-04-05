@@ -330,6 +330,14 @@ a:hover, a:focus, a:active {
 
 }
 
+.main-blog-hero {
+    background: url("../images/blog-bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
 .main-office-hero {
     background: url("../images/offfices.jpg");
     background-size: cover;
