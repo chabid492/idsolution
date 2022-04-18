@@ -773,14 +773,20 @@ footer ul li a {
     color: var(--primary-color) !important;
 }
 
+@media (max-width: 1200px) {
+    .main-nav-header .nav-item .nav-link {
+        padding: 1.4rem 0.8rem;
+
+    }
+}
 @media (max-width: 990px) {
     .main-features-card .text-placeholder {
         font-size: 150px;
         line-height: 0.2;
     }
 
-    .main-nav-header .nav-item .nav-link {
-        padding: 0.4rem 0rem;
+    header.main-nav-header .nav-item .nav-link {
+        padding: 0.4rem 0rem ;
     }
 
     .main-top-bar {
@@ -1236,6 +1242,10 @@ footer ul li a {
     max-width: 560px;
 }
 
+.main-auth-card-lg {
+    max-width: 700px;
+}
+
 .main-auth-card .custom-input {
     height: 50px !important;
 }
@@ -1267,17 +1277,49 @@ footer ul li a {
 }
 
 
-
 .main-logo-box {
-    height:50px;
+    height: 50px;
     width: 50px;
     background: var(--primary-color);
     padding: 10px;
     border-radius: .25rem;
 }
-.main-logo-box img{
+
+.main-logo-box img {
     height: 50px;
     border-radius: .25rem;
     width: 50px;
     object-fit: contain;
+}
+
+.main-wizard .nav-item {
+    width: 33%;
+    z-index: 9;
+}
+
+.main-wizard .nav-link {
+    border-radius: 50%;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    min-width: 48px;
+    background: var(--light-grey);
+    border: 1px solid var(--light-grey);
+}
+
+.main-wizard .nav-link.active {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.main-wizard .nav-item:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    left: 0;
+    top: 24px;
+    width: 100%;
+    height: 2px;
+    background: var(--light-grey);
 }

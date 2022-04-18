@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <!--    ========****==========styles========****==========-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/opensans.css">
+    <link rel="stylesheet" type="text/css" href="assets/material-icons/dist/material-design-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <!--    ========****==================****==========-->
+</head>
+<body class="m-0 p-0">
+<div class="login-wrapper">
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-xl-7 bg-white d-flex flex-column align-items-center min-vh-100 h-100">
+                <div class="main-auth-card  main-auth-card-lg w-100 h-100 min-vh-100 px-md-5 px-2 ">
+                    <div class="main-sidebar-logo d-flex align-items-center justify-content-between border-0 px-0 mx-0 pt-4 mt-2">
+                        <a href="#" title="Ideal Solutions" class="d-flex align-items-center">
+                            <div class="main-logo-box d-flex align-items-center justify-content-center">
+                                <!--                                <img src="/assets/images/logo.png" alt="Ideal Solutions" title="Ideal Solutions" class="img-fluid">-->
+                                <i class="material-icons house text-white"></i>
+                            </div>
+                            <p class="logo-title ms-3 text-md  m-0 mt-1 secondary-text fw-bold">Ideal Solutions</p>
+                        </a>
+
+                    </div>
+                    <div class="d-flex justify-content-center flex-column w-100 h-100 mt-5 pt-lg-4">
+                        <h2 class="fw-600 mb-5">Start your journey with us!</h2>
+
+                        <ul class="nav nav-tabs main-wizard position-relative mb-4 border-0" id="myTab" role="tablist">
+                            <li class="nav-item position-relative" role="presentation">
+                                <button class="nav-link active fw-600" id="general-tab" data-bs-toggle="tab"
+                                        data-bs-target="#general" type="button" role="tab" aria-controls="general"
+                                        aria-selected="true">1
+                                </button>
+                                <p class="mt-2 fw-600 text-sm">General</p>
+                            </li>
+                            <li class="nav-item position-relative text-center " role="presentation">
+                                <button class="nav-link mx-auto fw-600" id="address-tab" data-bs-toggle="tab" data-bs-target="#address"
+                                        type="button" role="tab" aria-controls="address" aria-selected="false">2
+                                </button>
+                                <p class="mt-2 fw-600 text-sm">Address</p>
+                            </li>
+                            <li class="nav-item position-relative text-end " role="presentation">
+                                <button class="nav-link  ms-auto  fw-600" id="verification-tab" data-bs-toggle="tab" data-bs-target="#verification"
+                                        type="button" role="tab" aria-controls="verification" aria-selected="false">3
+                                </button>
+                                <p class="ms-auto mt-2 fw-600 text-sm">Verification</p>
+                            </li>
+                        </ul>
+                        <form class="">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="general" role="tabpanel"
+                                     aria-labelledby="general-tab">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-md-6 pe-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> User Name</label>
+                                                    <input type="text" placeholder="Enter User Name"
+                                                           class="custom-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6  ps-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> Email</label>
+                                                    <input type="text" placeholder="Enter Email" class="custom-input">
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-md-6 pe-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> First Name</label>
+                                                    <input type="text" placeholder="Enter First Name"
+                                                           class="custom-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6  ps-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> Last Name</label>
+                                                    <input type="text" placeholder="Enter Last Name"
+                                                           class="custom-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="text-sm"> Company</label>
+                                            <input type="text" placeholder="Enter Company" class="custom-input">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="text-sm"> Password</label>
+                                            <input type="password" placeholder="Enter Password" class="custom-input">
+                                        </div>
+
+                                        <div class="text-start mb-4 pt-2">
+                                            <button class="custom-button primary-btn text-md px-5" type="submit">
+                                                Next
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
+                                    <div>
+                                        <div class="mb-4">
+                                            <label class="text-sm">Phone</label>
+                                            <input type="text" placeholder="Enter Phone " class="custom-input">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="text-sm"> Country</label>
+                                            <input type="text" placeholder="Enter Country" class="custom-input">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 pe-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> Street </label>
+                                                    <input type="text" placeholder="Enter Street " class="custom-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6  ps-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> City</label>
+                                                    <input type="text" placeholder="Enter City " class="custom-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 pe-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> State </label>
+                                                    <input type="text" placeholder="Enter State " class="custom-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6  ps-md-2">
+                                                <div class="mb-4">
+                                                    <label class="text-sm"> Zip Code</label>
+                                                    <input type="text" placeholder="Enter Zip Code "
+                                                           class="custom-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-start mb-4 pt-2">
+                                            <button class="custom-button primary-btn text-md px-5" type="submit">
+                                                Continue
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="verification" role="tabpanel" aria-labelledby="verification-tab">
+                                    <div>
+                                        <div class="mb-4">
+                                            <h4 class="fw-600 heading-sm mb-3 mt-3">Verify your Email</h4>
+                                            <p class="mb-4">We sent a verification code to <strong>jhon@gmail.com</strong>
+                                                Please enter the verification code below to verify your account.</p>
+                                            <label class="text-sm"> Verification Code</label>
+                                            <input type="text" placeholder="Enter Verification Code"
+                                                   class="custom-input">
+                                        </div>
+
+
+                                        <div class="text-start mb-4 pt-2">
+                                            <button class="custom-button primary-btn text-md px-5" type="submit">Create an Account
+                                            </button>
+                                        </div>
+
+                                        <a href="#" class="primary-text">Resend Verification Link</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!--    ========****==========scripts========****==========-->
+<script src="assets/js/jquery-3.6.0.slim.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!--    ========****==================****==========-->
+<script>
+
+    //navbar
+    $(document).ready(function () {
+        $(window).bind('scroll', function () {
+
+            if ($(window).scrollTop() > 90) {
+                $('.main-nav-header nav').addClass('fixed');
+            } else {
+                $('.main-nav-header nav').removeClass('fixed');
+
+            }
+        });
+    });
+
+</script>
+</body>
+</html>
